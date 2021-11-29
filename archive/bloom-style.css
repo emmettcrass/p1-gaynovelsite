@@ -1,0 +1,495 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+ 
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:1024px;
+  min-width:200px;
+  max-width:1440px;
+  margin:auto;
+  background-color:#ffffff;
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.lom-bkgd{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:0px;
+  width:1440px;
+  min-width:1440px;
+  height:1024px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:1024px;
+  content:url(assets/images/lom_bkgd.png);
+}
+.lom-bkgd-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.lom-cover{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:170px;
+  width:374px;
+  min-width:374px;
+  height:524px;
+  margin-top:-797px;
+  margin-bottom:273px;
+  min-height:524px;
+  background-image:url(assets/images/lom_cover.png);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  filter:drop-shadow(6px 8px 8px rgba(0, 0, 0, 0.800000011920929));
+}
+.lom-cover-outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.lom-title{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  transform:rotate(7.3318699443779725deg);
+  margin-left:712px;
+  width:621px;
+  min-width:621px;
+  margin-top:-784px;
+  margin-bottom:630px;
+  min-height:154px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Verdana;
+  font-weight:700;
+  font-size:72px;
+  line-height:87px;
+  text-shadow:10px 8px 0px rgba(255, 255, 255, 1);
+}
+.lom-title-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.para-box{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:395px;
+  width:801px;
+  min-width:801px;
+  height:407px;
+  margin-top:-765px;
+  margin-bottom:358px;
+  min-height:407px;
+}
+.para-box-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.gradient{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:117px;
+  width:684px;
+  min-width:684px;
+  height:407px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:407px;
+  content:url(assets/images/gradient.png);
+}
+.gradient-outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.Rectangle-17{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:0px;
+  width:801px;
+  min-width:801px;
+  height:407px;
+  margin-top:-407px;
+  margin-bottom:0px;
+  min-height:407px;
+  background-color:rgba(241, 184, 175, 1);
+  border-radius:9px;
+  mix-blend-mode:overlay;
+}
+.Rectangle-17-outer{
+  pointer-events:none;
+  position:relative;
+  display:flex;
+}
+.Rectangle-12{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:0px;
+  width:801px;
+  min-width:801px;
+  height:407px;
+  margin-top:-407px;
+  margin-bottom:0px;
+  min-height:407px;
+  background-color:rgba(241, 184, 175, 1);
+  filter:drop-shadow(6px 8px 8px rgba(0, 0, 0, 0.800000011920929));
+  border-radius:9px;
+}
+.Rectangle-12-outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.info{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:595px;
+  width:245px;
+  min-width:245px;
+  margin-top:-708px;
+  margin-bottom:614px;
+  min-height:94px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(60, 60, 60, 1);
+  font-style:normal;
+  font-family:Verdana;
+  font-weight:400;
+  font-size:24px;
+  line-height:29px;
+}
+.info-outer{
+  pointer-events:none;
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.paragraph{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:595px;
+  width:524px;
+  min-width:524px;
+  margin-top:-590px;
+  margin-bottom:303px;
+  min-height:287px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Georgia;
+  font-weight:400;
+  font-size:16px;
+  line-height:19px;
+}
+.paragraph-outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+/* bloom */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+
+
+/* pexels-taryn-elliott-5107179 1 */
+
+position: absolute;
+width: 1320.36px;
+height: 1980.54px;
+left: 1704.45px;
+top: 1378.93px;
+
+background: url(.jpg);
+transform: matrix(0.01, -1, -1, -0.01, 0, 0);
+
+
+/* pexels-taryn-elliott-5107179 2 */
+
+position: absolute;
+width: 1320.36px;
+height: 1980.54px;
+left: 1704.45px;
+top: 1378.93px;
+
+background: url(.jpg);
+mix-blend-mode: soft-light;
+transform: matrix(0.01, -1, -1, -0.01, 0, 0);
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 801px;
+height: 407px;
+left: 395px;
+top: 259px;
+
+/* greendean */
+background: #8AA89F;
+/* bestblur */
+box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.8);
+border-radius: 9px;
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 801px;
+height: 407px;
+left: 395px;
+top: 259px;
+
+/* greendean */
+background: #8AA89F;
+mix-blend-mode: overlay;
+border-radius: 9px;
+
+
+/* gradient */
+
+position: absolute;
+width: 684px;
+height: 407px;
+left: 512px;
+top: 259px;
+
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(278.95deg, rgba(255, 255, 255, 0.8) 22.49%, rgba(255, 255, 255, 0) 105.68%);
+border-radius: 9px;
+
+
+/* Bloom */
+
+position: absolute;
+width: 294.25px;
+height: 95.23px;
+left: 839.15px;
+top: 198px;
+
+/* h1 */
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 88px;
+
+color: #000000;
+
+text-shadow: 10px 8px 0px #FFFFFF;
+transform: rotate(7.33deg);
+
+
+/* Vibes: Baking Author: Kevin Panetta and Savanna Ganucheau LGBT+: Gay */
+
+position: absolute;
+width: 392px;
+height: 94px;
+left: 595px;
+top: 306px;
+
+/* h2 */
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+color: #3C3C3C;
+
+
+
+/* Now that high school is over, Ari is dying to move to the big city with his ultra-hip band—if he can just persuade his dad to let him quit his job at their struggling family bakery. Though he loved working there as a kid, Ari cannot fathom a life wasting away over rising dough and hot ovens. But while interviewing candidates for his replacement, Ari meets Hector, an easygoing guy who loves baking as much as Ari wants to escape it. As they become closer over batches of bread, love is ready to bloom . . . that is, if Ari doesn’t ruin everything. */
+
+position: absolute;
+width: 524px;
+height: 192px;
+left: 595px;
+top: 448px;
+
+/* paragraph */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 241.28px;
+height: 1486.5px;
+left: 1486.74px;
+top: -160.37px;
+
+/* greendean */
+background: #8AA89F;
+transform: rotate(90.05deg);
+
+
+/* 911GEL0JZ1L 3 */
+
+position: absolute;
+width: 368.05px;
+height: 521.49px;
+left: 141px;
+top: 249.93px;
+
+background: url(.jpg);
+/* bestblur */
+filter: drop-shadow(6px 8px 8px rgba(0, 0, 0, 0.8));
+transform: rotate(-6.67deg);
+
+
+/* home */
+
+position: absolute;
+width: 284px;
+height: 80px;
+left: 1061px;
+top: 20px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+
+color: #FFFFFF;
+
+
+
+/* books */
+
+position: absolute;
+width: 284px;
+height: 80px;
+left: 1203px;
+top: 20px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+
+color: #FFFFFF;
+

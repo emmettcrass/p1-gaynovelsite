@@ -1,0 +1,456 @@
+a:hover {
+  color: lightcoral;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: flex;
+  margin:0;
+  font-family: Verdana, sans-serif;
+  background-position: 50% 50%;
+}
+body.homepage {
+  background-image: url(index-assets/index-bkgd.png);
+}
+
+.heading {
+padding-bottom: 30px;
+text-align: center;
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 88px;
+}
+/* nav bar and drop down */
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin-top: -40px;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ----end of dropdown/nav--- */
+
+body {
+  margin: 40px;
+}
+.magic {
+  position: relative;
+  text-shadow: 10px 8px 0px #FFFFFF;
+  transform: rotate(7.33deg);
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+
+}
+
+.magic img {
+  margin-right: 60px;
+  margin-left: -100px;
+}
+
+.magic h2 {
+  position: absolute;
+  bottom: 100px;
+  top: -10px;
+  right: 0;
+  left: 95px;
+}
+
+.bake {
+  position: relative;
+  text-shadow: 10px 8px 0px #FFFFFF;
+  transform: rotate(7.33deg);
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+}
+.bake img {
+  margin-right: 60px;
+  margin-left: -100px;
+}
+.bake h2 {
+  position: absolute;
+  bottom: 100px;
+  top: -10px;
+  right: 0;
+  left: 95px;
+}
+
+.drama {
+  position: relative;
+  text-shadow: 10px 8px 0px #FFFFFF;
+  transform: rotate(7.33deg);
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+}
+.drama img {
+  margin-right: 60px;
+  margin-left: -150px;
+}
+.drama h2 {
+  position: absolute;
+  bottom: 100px;
+  top: -10px;
+  right: 0;
+  left: 50px;
+}
+
+.sport {
+  position: relative;
+  text-shadow: 10px 8px 0px #FFFFFF;
+  transform: rotate(7.33deg);
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+}
+.sport img {
+  margin-right: 60px;
+  margin-left: -150px;
+}
+.sport h2 {
+  position: absolute;
+  bottom: 100px;
+  top: -10px;
+  right: 0;
+  left: 50px;
+}
+
+.row {
+  max-width: 60%;
+  margin:auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 290px;
+  grid-row-gap: 50px;
+  }
+.row img { width: 100%;}
+
+
+/* Start of CU Page */
+.cheerpage .navbar a:hover, .cheerpage .dropdown:hover .dropbtn {
+  background-color:lightcoral;
+}
+
+
+.cheerpage .dropdown-content a:hover {
+  background-color:lightsalmon;
+}
+
+
+.text-block {
+  color: #fff;
+}
+
+body.cheerpage .heading {
+  padding-bottom: 45px;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+}
+
+.feature-section {
+  margin-top: 200px;
+}
+
+.flex-container {
+  position: relative;
+  display: flex;
+  align-items: left;
+  flex: 1;
+  width: 80%;
+  margin: auto;
+  background-size: 2050px 500px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  box-shadow: 8px 11px 12px -1px rgba(0,0,0,0.77);
+}
+body.cheerpage.flex-container {
+  background-image: url('images/cu-para-box.png');
+}
+
+
+
+.feature-image {
+  position: static;
+  top: 24px;
+  /* width: 100%;
+  height: 100%;
+  margin-top: -316px;
+  margin-bottom: -376px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  object-fit: none;
+  object-position: 50% 50%; */
+}
+
+body.cheerpage {
+  font-family: Verdana, sans-serif;
+  background-image: url('/images/cu-bkgd.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: flex;
+}
+
+.paragraph {
+  position: relative;
+  left: -53px;
+  top: 1px;
+  bottom: -60px;
+  padding-left: 0px;
+  float: none;
+}
+
+.heading-2 {
+  position: relative;
+  top: -105px;
+}
+
+.flex-container-2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+body.cheerpage .flex-container-2 {
+  background-image: url('images/cu-para-box.png');
+}
+
+/* 
+.feature-image-2 {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  max-height: 25%;
+  max-width: 60%;
+  margin-right: 41px;
+  margin-bottom: -43px;
+  margin-left: -729px;
+  background-image: url('/images/cu-cover.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: scale-down;
+  object-position: 50% 50%;
+}
+ styled for CU page but used as default */
+
+.heading-3 {
+  box-sizing: border-box;
+  position: relative;
+  left: -545px;
+  top: -620px;
+  margin-bottom: -595px;
+  margin-left: 583px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-family: Verdana, sans-serif;
+  font-size: 72px;
+  white-space:nowrap;
+  text-shadow: 10px 8px 0px #FFFFFF;
+  transform: rotate(7.33deg);
+  font-style: normal;
+  font-weight: bold;
+  color: #000000;
+}
+
+.paragraph-2 {
+  position: relative;
+  /* margin-bottom: -3px;
+  margin-left: 35px;
+  padding-right: 96px;
+  padding-bottom: 45px; */
+  font-family: Verdana, sans-serif;
+}
+
+.paragraph-3 {
+  /* margin: -161px 236px 1px 36px; */
+  padding-bottom: 0px;
+  font-family: Verdana, sans-serif;
+  font-size: 24px;
+}
+
+.image {
+  position: relative;
+  left: 203px;
+  top: -92px;
+  display: inline-block;
+  width: 582vw;
+  max-width: 100%;
+  margin: -118px -73px -304px -127px;
+  padding-left: 0px;
+}
+
+.div-block {
+  position: relative;
+  /* margin-bottom: -5px;
+  margin-left: -200px;
+  margin-right: 60px; */
+  flex: 55%;
+  width: 639px;
+  margin-left: 390px;
+}
+.left {
+  flex: 45%;
+}
+.left img {
+  /*margin-top: -160px;
+  margin-left: -60px;
+  width: 120%;*/
+  margin-top: -63px;
+  margin-left: -81px;
+  margin-bottom: -103px;
+  }
+
+  .feature-section {
+    padding: 40px 20px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+
+  .feature-image {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .flex-container-2 {
+    flex-direction: column;
+  }
+
+
+  .feature-image-2 {
+    margin-right: auto;
+  }
+
+  @media screen and (max-width: 767px) {
+  .sticky-nav {
+    position: relative;
+  }
+
+  .nav-grid {
+    text-align: center;
+  }
+
+@media screen and (max-width: 479px) {
+  .sticky-nav {
+    padding: 0px;
+  }
+
+  .nav-grid {
+    grid-auto-flow: row;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+  }
+
+  .nav-logo-link {
+    border-top: 1px solid #c4c4c4;
+  }
+
+  .nav-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #c4c4c4;
+  }
+
+  /*---end of cu---*/
+
+  /*---START Bloom---*/
+.bloompage .navbar a:hover, .bloompage  .dropdown:hover .dropbtn {
+  background-color: #8AA89F;
+}
+.bloompage .navbar a:hover, .bloompage  .dropdown:hover .dropbtn {
+  background-color: #8AA89F;
+}
+body.bloompage.left {
+  background-image: url("images/bloom-para-box.png");
+}
+body.bloompage {
+  font-family: Verdana, sans-serif;
+  background-image: url("images/bloom-bkgd.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: flex;
+}
+body.bloompage.heading-3 {
+  left: -120px;
+  top: -300px;
+  margin-top: 123px;
+  margin-bottom: 44px;
+  margin-left: 157px;
+}

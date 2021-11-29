@@ -1,0 +1,279 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin-top: -40px;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.dropdown {
+  margin-top: 5px;
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:lightcoral;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:lightsalmon;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.text-block {
+  color: #fff;
+}
+
+.heading {
+  padding-bottom: 45px;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+}
+
+.feature-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.flex-container {
+  border: #000000;
+  position: relative;
+  top: -59px;
+  display: flex;
+  max-height: none;
+  max-width: 940vw;
+  min-height: 0px;
+  margin-top: -1px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  border-radius: 0px;
+  background-image: url('../images/cu-para-box.png');
+  background-position: 100% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+
+.feature-image {
+  position: static;
+  top: 24px;
+  width: 100%;
+  height: 100%;
+  margin-top: -316px;
+  margin-bottom: -376px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  object-fit: none;
+  object-position: 50% 50%;
+}
+
+.body-2 {
+  font-family: Verdana, sans-serif;
+  background-image: url('/images/cu-bkgd.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: flex;
+}
+
+.paragraph {
+  position: relative;
+  left: -53px;
+  top: 1px;
+  bottom: -60px;
+  padding-left: 0px;
+  float: none;
+}
+
+.heading-2 {
+  position: relative;
+  top: -105px;
+}
+
+.flex-container-2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+
+
+.feature-image-2 {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  max-height: 25%;
+  max-width: 60%;
+  margin-right: 41px;
+  margin-bottom: -43px;
+  margin-left: -729px;
+  background-image: url('/images/cu-cover.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: scale-down;
+  object-position: 50% 50%;
+}
+
+.heading-3 {
+  position: relative;
+  left: 54px;
+  bottom: 145px;
+  margin-top: 123px;
+  margin-bottom: 44px;
+  margin-left: 157px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-family: Verdana, sans-serif;
+  font-size: 72px;
+  text-shadow: 10px 8px 0px #FFFFFF;
+  transform: rotate(7.33deg);
+  font-style: normal;
+  font-weight: bold;
+  color: #000000;
+}
+
+.paragraph-2 {
+  position: relative;
+  margin-bottom: -3px;
+  margin-left: 35px;
+  padding-right: 96px;
+  padding-bottom: 45px;
+  font-family: Verdana, sans-serif;
+}
+
+.paragraph-3 {
+  position: relative;
+  bottom: 11px;
+  margin: -161px 236px 1px 36px;
+  padding-bottom: 0px;
+  font-family: Verdana, sans-serif;
+  font-size: 24px;
+}
+
+.image {
+  position: relative;
+  left: 203px;
+  top: -92px;
+  display: inline-block;
+  width: 582vw;
+  max-width: 100%;
+  margin: -118px -73px -304px -127px;
+  padding-left: 0px;
+}
+
+.div-block {
+  margin-bottom: -5px;
+  margin-left: -200px;
+  margin-right: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .sticky-nav {
+    position: relative;
+  }
+
+  .nav-grid {
+    text-align: center;
+  }
+
+  .feature-section {
+    padding: 40px 20px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .feature-image-mask {
+    margin-right: 0px;
+  }
+
+  .feature-image {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .flex-container-2 {
+    flex-direction: column;
+  }
+
+  .feature-image-mask-2 {
+    margin-right: 0px;
+  }
+
+  .feature-image-2 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+@media screen and (max-width: 479px) {
+  .sticky-nav {
+    padding: 0px;
+  }
+
+  .nav-grid {
+    grid-auto-flow: row;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+  }
+
+  .nav-logo-link {
+    border-top: 1px solid #c4c4c4;
+  }
+
+  .nav-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #c4c4c4;
+  }
